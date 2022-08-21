@@ -1,6 +1,6 @@
 module.exports = {
 
-  plugins: ['prettier', 'chalk'], rules: {
+  plugins: ['prettier'], rules: {
     'prettier/prettier': [
       'warn',
       {

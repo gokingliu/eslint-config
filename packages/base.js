@@ -43,16 +43,6 @@ module.exports = {
       'as-needed'
     ],
     /**
-     * 要求箭头函数的参数使用圆括号
-     */
-    'arrow-parens': [
-      'warn',
-      'as-needed',
-      {
-        'requireForBlockBody': true
-      }
-    ],
-    /**
      * 强制箭头函数的箭头前后使用一致的空格
      */
     'arrow-spacing': 'warn',
@@ -138,13 +128,6 @@ module.exports = {
       'expression'
     ],
     /**
-     * 强制在函数括号内使用一致的换行
-     */
-    'function-paren-newline': [
-      'warn',
-      'multiline'
-    ],
-    /**
      * 强制 generator 函数中 * 号周围使用一致的空格
      */
     'generator-star-spacing': [
@@ -158,13 +141,6 @@ module.exports = {
      * 限制变量名长度
      */
     'id-length': 'off',
-    /**
-     * 强制隐式返回的箭头函数体的位置
-     */
-    'implicit-arrow-linebreak': [
-      'warn',
-      'beside'
-    ],
     /**
      * 使用 2 个空格缩进
      */
@@ -272,15 +248,6 @@ module.exports = {
           'Immutable.List'
         ],
         'properties': false
-      }
-    ],
-    /**
-     * 在编写多个方法链式调用(超过两个方法链式调用)时。 使用前导点，强调这行是一个方法调用，而不是一个语句。
-     */
-    'newline-per-chained-call': [
-      'warn',
-      {
-        'ignoreChainWithDepth': 2
       }
     ],
     /**
@@ -542,18 +509,6 @@ module.exports = {
     'one-var': [
       'warn',
       'never'
-    ],
-    /**
-     * 避免在赋值语句 = 前后换行。如果你的代码单行长度超过了 max-len 定义的长度而不得不换行，那么使用括号包裹。
-     */
-    'operator-linebreak': [
-      'error',
-      'before',
-      {
-        'overrides': {
-          '=': 'none'
-        }
-      }
     ],
     /**
      * 要求或禁止块内填充

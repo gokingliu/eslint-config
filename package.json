@@ -1,6 +1,6 @@
 {
   "name": "@gokingliu/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ESLint Config for Javascript Prettier Typescript",
   "main": "index.js",
   "repository": {
