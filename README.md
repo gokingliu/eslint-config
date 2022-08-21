@@ -1,2 +1,3 @@
-# eslint-config
-eslint config for javascript typescript prettier
+# npm module
+
+eslint config for javascript prettier typescript
