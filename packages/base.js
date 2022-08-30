@@ -638,7 +638,7 @@ module.exports = {
      */
     'wrap-iife': [
       'error',
-      'outside'
+      'inside'
     ]
   }
 };
